@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Office Hours Podcast is brought to you by Tobi's Chimney and Vent Care.
   If you have a chimney or vent in the Southern California region. Call Tobi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://the-office-hours-podcast.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://the-office-hours-podcast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: officehours
 github_username: mvinzangelo
 
