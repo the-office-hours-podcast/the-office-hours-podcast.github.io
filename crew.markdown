@@ -24,7 +24,7 @@ permalink: /crew/
 
 # Daniela Cruz
 
-<img src="/assets/crew/dani.jpeg" alt="Dani Cruz" class="profile-image">
+<img src="/assets/crew/dani.jpg" alt="Dani Cruz" class="profile-image">
 
 [LinkedIn](https://www.linkedin.com/in/danielacruz25)
 
