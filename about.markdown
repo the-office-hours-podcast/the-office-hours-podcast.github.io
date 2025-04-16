@@ -11,5 +11,3 @@ The podcast serves a dual purpose: celebrating outstanding faculty while helping
 Join us as we explore the fascinating world of academia, demystify the Ph.D. journey, and strengthen our community of academics, one conversation at a time - starting with the creators' home community at the University of California, Riverside.
 
 _Have a professor you'd like to hear from? [Get in touch](mailto:theofficehoursemail@gmail.com)!_
-
-This about paragraph was written with the help of AI.
