@@ -14,9 +14,9 @@
   gap: 2rem;
   align-self: flex-start;
   @include media-query($on-palm) { 
-    padding-top: 50px;
     position:relative;
-    height: 50vh;
+    padding-top: 30px;
+    height: 70vh;
     width: 100vw;
   }
 }
@@ -35,9 +35,8 @@
 }
 
 .header-logo {
-  width: 70%;
+  width: 80%;
   max-width: 700px;
-  min-width: 250px;
 }
 
 .trigger {
