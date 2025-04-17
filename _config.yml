@@ -20,9 +20,6 @@
 
 title: The Office Hours Website
 email: theofficehoursemail@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The Office Hours Podcast is brought to you by Tobi's Chimney and Vent Care.
-  If you have a chimney or vent in the Southern California region, call Tobi at 951-545-4189.
 url: "https://theofficehourswebsite.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
