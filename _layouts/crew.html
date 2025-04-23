@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="crew">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+  
+  <ul class="crew-list">
+    {% for member in site.crew%}
+      <li >
+          <img class="crew-picture" src="{{ member.picture | relative_url }}" alt="{{ member.name }}">
+          <div class="crew-bio">
+            <div class="crew-name-wrapper">
+              <h2 class="crew-role">{{ member.role }}</h2>
+              <p class="crew-name">{{ member.name }}</p>
+            </div>
+            <div class="crew-links">
+              {% if member.linkedin %}
+                <a href="{{ member.linkedin }}" target="_blank">
+                  <img class="crew-social-logo" src="/assets/images/linkedin.svg"/>
+                </a>
+              {%- endif -%}
+              {% if member.instagram %}
+                <a href="{{ member.instagram }}" target="_blank">
+                  <img class="crew-social-logo" src="/assets/images/instagram.svg"/>
+                </a>
+              {%- endif -%}
+              {% if member.website %}
+                <a href="{{ member.website }}" target="_blank">
+                  <img class="crew-social-logo" src="/assets/images/website.svg"/>
+                </a>
+              {%- endif -%}
+              {% if member.email %}
+                <a href="mailto:{{ member.email }}" target="_blank">
+                  <img class="crew-social-logo" src="/assets/images/mail.svg"/>
+                </a>
+              {%- endif -%}
+            </div>
+          </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

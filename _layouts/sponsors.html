@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="sponsors">
+  <h1 class="post-title">{{ page.title }}</h1>
+  
+  <ul class="crew-list">
+    {% for sponsor in site.sponsors%}
+      <li >
+          <a class="episode-link" href="{{sponsor.website}} " target="_blank">
+          <img class="crew-picture" src="{{sponsor.picture}}" alt="{{sponsor.name}}">
+            <div class="crew-name-wrapper">
+              <h2 class="crew-role">{{ sponsor.name }}</h2>
+              <p>{{sponsor.info}}</p>
+            </div>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p>If you are interested in joining this list of sponsors, feel free to email us!</p>
+</div>

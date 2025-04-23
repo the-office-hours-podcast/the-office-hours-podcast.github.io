@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: crew
 title: Crew
 permalink: /crew/
 ---
 
-## Host
+<!-- ## Host
 
 # Vinz Angelo Madrigal
 
@@ -35,4 +35,4 @@ permalink: /crew/
     object-fit: cover;
     margin: 20px 0;
 }
-</style>
+</style> -->

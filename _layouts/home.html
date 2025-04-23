@@ -3,32 +3,33 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  {%- if site.episodes.size > 0 -%}
+    <h2 class="post-title">Latest Episode</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- assign last_post = site.episodes.last -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ last_post.date | date: date_format }}</span>
+        <a class="post-link" href="{{ last_post.url | relative_url }}">
+          <img class="latest-thumbnail" src="/assets/thumbnails/{{last_post.episode_number}}.jpg"/>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+            {{ last_post.title | escape }}
+            <h4 class="latest-school-title"> {{last_post.institution | escape}}</h4>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        </a>
+        <div class="social-icons-wrapper-latest social-icons-wrapper">
+          <a href="{{last_post.youtube}}" target="_blank">
+            <img class="crew-social-logo" src="/assets/images/youtube.svg"/>
+          </a>
+          <a href="{{last_post.spotify}}" target="_blank">
+            <img class="crew-social-logo" src="/assets/images/spotify.svg"/>
+          </a>
+          <a href="{{last_post.apple}}" target="_blank">
+            <img class="crew-social-logo" src="/assets/images/apple-podcasts.svg"/>
+          </a>
+        </div>
       </li>
-      {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>

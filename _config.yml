@@ -20,12 +20,25 @@
 
 title: The Office Hours Website
 email: theofficehoursemail@gmail.com
+youtube: https://www.youtube.com/@the-office-hours-podcast
 url: "https://theofficehourswebsite.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  crew:
+    order:
+      - vinz.md
+      - david.md
+  episodes:
+    sort_by: date
+    output: true
+  sponsors:
+    sort_by: name
+    output: true
 
 header_pages:
   - about.markdown
