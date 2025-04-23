@@ -1,7 +1,7 @@
 ---
 layout: episode
 title: "Episode 1: Demystifying Academia and Embracing the Nontraditional With Dr. Allan Knight"
-professor: "Allan Knight"
+professor: "Dr. Allan Knight"
 date: 2025-01-23 09:30:00 -0800
 categories: episodes
 institution: "University of California, Riverside"
