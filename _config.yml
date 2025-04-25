@@ -45,6 +45,7 @@ header_pages:
   - crew.markdown
   - episodes.markdown
   - sponsors.markdown
+  - donate.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.

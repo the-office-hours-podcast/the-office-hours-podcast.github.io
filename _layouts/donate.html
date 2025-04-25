@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="donate-header">
+        <img class="donate-picture" src="/assets/images/donate.jpg"/>
+        <div class="donate-header-right">
+            <p class="donate-paragraph">The Office Hours Podcast is a passion project that is currently independently run.
+                We believe that these conversations are important now, more than ever, to be listened to and shared.
+                If you would like to support us, please consider donating and be added to the list of donors below!
+            </p>
+            <a class="donate-link" href="https://www.paypal.com/donate/?hosted_button_id=NVJYBRTXSHAR4" target="_blank">Donate Here!</a>
+        </div>
+    </div>
+  </header>
+
+  <div class="post-content">
+    <h1 class="post-title">Donors</h1>
+    
+    {{ content }}
+  </div>
+
+</article>

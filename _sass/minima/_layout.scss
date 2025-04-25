@@ -72,9 +72,9 @@
 
   .page-link {
     @include relative-font-size(2);
-    flex: 1 1 calc(30% - 0.75rem); // 4 items, with spacing accounted
+    flex: 1 1 calc(20% - 0.75rem); // 4 items, with spacing accounted
     text-align: center;
-    padding: 0.5rem;
+    // padding: 0.5rem;
     &:hover {
       color:white;
       text-decoration: none;
@@ -84,10 +84,6 @@
       padding: 0;
     }
   }
-}
-
-.active {
-  color: white;
 }
 
 .site-title {
@@ -513,5 +509,49 @@
   &:hover {
     filter: brightness(60%)
   }
-  
 }
+
+/**
+ * Donate
+ */
+
+ .donate-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  @include media-query($on-palm) { 
+    flex-direction: column;
+  }
+ }
+
+ .donate-picture {
+  width: 40%;
+  object-fit: cover;
+  @include media-query($on-palm) { 
+    width: 100%;
+  }
+ }
+
+ .donate-header-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @include media-query($on-palm) { 
+    width: 100%;
+  }
+ }
+
+ .donate-paragraph {
+  width: 100%;
+  @include media-query($on-palm) { 
+    width: 100%;
+  }
+ }
+
+ .donate-link {
+  letter-spacing: -1px;
+  @include relative-font-size(1.5);
+  text-align: center;
+ }
