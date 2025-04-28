@@ -11,7 +11,9 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ last_post.date | date: date_format }}</span>
         <a class="post-link" href="{{ last_post.url | relative_url }}">
-          <img class="latest-thumbnail" src="/assets/thumbnails/{{last_post.episode_number}}.jpg"/>
+          <div class="latest-thumbnail-wrapper">
+            <img class="latest-thumbnail" src="/assets/thumbnails/{{last_post.episode_number}}.jpg"/>
+          </div>
         <h3>
             {{ last_post.title | escape }}
             <h4 class="latest-school-title"> {{last_post.institution | escape}}</h4>

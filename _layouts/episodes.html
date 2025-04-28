@@ -9,7 +9,10 @@ layout: default
     {% for episode in site.episodes%}
       <li >
           <a class="episode-link" href="{{ episode.url | relative_url }} ">
-          <img class="crew-picture" src="/assets/thumbnails/{{episode.episode_number}}.jpg" alt="{{ episode.title }}">
+          <div class="episodes-picture-wrapper">
+            <img class="crew-picture" src="/assets/thumbnails/{{episode.episode_number}}.jpg" alt="{{ episode.title }}">
+
+          </div>
             <div class="crew-name-wrapper">
               <h2 class="crew-role">{{ episode.professor }}</h2>
               <p class="crew-name">{{ episode.institution }}</p>

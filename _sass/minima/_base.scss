@@ -27,6 +27,7 @@ body {
   min-height: 100vh;
   flex-direction: row;
   justify-items: center;
+  z-index: 0;
   @include media-query($on-palm) { 
     flex-direction: column;
   }
@@ -62,10 +63,8 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
-  border: 3px solid #000;
+  border: 2px solid #000;
 }
-
-
 
 /**
  * Figures

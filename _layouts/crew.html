@@ -9,7 +9,9 @@ layout: default
   <ul class="crew-list">
     {% for member in site.crew%}
       <li >
-          <img class="crew-picture" src="{{ member.picture | relative_url }}" alt="{{ member.name }}">
+          <div class="crew-picture-wrapper">
+            <img class="crew-picture" src="{{ member.picture | relative_url }}" alt="{{ member.name }}">
+          </div>
           <div class="crew-bio">
             <div class="crew-name-wrapper">
               <h2 class="crew-role">{{ member.role }}</h2>

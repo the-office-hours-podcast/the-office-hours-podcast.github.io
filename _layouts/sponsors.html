@@ -9,7 +9,9 @@ layout: default
     {% for sponsor in site.sponsors%}
       <li >
           <a class="episode-link" href="{{sponsor.website}} " target="_blank">
-          <img class="crew-picture" src="{{sponsor.picture}}" alt="{{sponsor.name}}">
+            <div class="episodes-picture-wrapper">
+              <img class="crew-picture" src="{{sponsor.picture}}" alt="{{sponsor.name}}">
+            </div>
             <div class="crew-name-wrapper">
               <h2 class="crew-role">{{ sponsor.name }}</h2>
               <p>{{sponsor.info}}</p>
