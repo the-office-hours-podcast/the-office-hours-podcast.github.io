@@ -13,4 +13,4 @@ Join us as we explore the fascinating world of academia, demystify the Ph.D. jou
 _Have a professor you'd like to hear from? [Get in touch](mailto:theofficehoursemail@gmail.com)!_
 
 ![UCR Sign with Professors and Students](/assets/images/about.jpg)
-Pictured from left to right: Dr. Jia Chen, Alice Thai, Taneesha Sharma, Dr. Evangelos (Vagelis) Papalexakis, Karan Bhogal, Cameron Tsai, Cody Kurpanek
+Pictured from left to right: Dr. Jia Chen, Alice Thai, Kira Hammond, Taneesha Sharma, Dr. Evangelos (Vagelis) Papalexakis, Karan Bhogal, Cameron Tsai, Cody Kurpanek
